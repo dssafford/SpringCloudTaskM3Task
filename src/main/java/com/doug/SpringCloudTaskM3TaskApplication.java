@@ -30,7 +30,7 @@ public class SpringCloudTaskM3TaskApplication {
 
 			//parameters: stationid, license plate, timestamp
 
-			if(null!= strings) {
+			if(null!= strings && 0 != strings.length) {
 				System.out.println("parameter length is " + strings.length);
 
 				String stationId = strings[0];

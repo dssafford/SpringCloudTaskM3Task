@@ -22,3 +22,9 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### Vagrant
+.vagrant/
+
+### Misc
+*.log
